@@ -7,8 +7,8 @@ import pickle
 from PIL import Image, ImageDraw
 import face_recognition
 import numpy as np
-from data_prep import capture_and_save_image
-import telegramnotification3 as tl3
+from data_preparation import capture_and_save_image
+import telegramNotification as tl3
 from datetime import datetime, time
 
 # Allowed file extensions for image formats
